@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = [
+	"test-lib-1",
+	"test-lib-2",
+	"test-bin",
+]
+
+[workspace.dependencies]
+test-lib1 = { path = "./test-lib-1/"}
